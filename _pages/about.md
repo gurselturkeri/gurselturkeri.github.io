@@ -31,8 +31,8 @@ redirect_from:
 
 <div class="framed-container">
   <figure class="framed-item">
-    <img src="images/av.gif" alt="av" class="framed">
-    <figcaption>Robotaxi Competations - Kocaeli,Türkiye (2022)</figcaption>
+    <img src="images/detection.jpg" alt="av" class="framed">
+    <figcaption>Traffic Sign Detection using YOLOv4 Darknet and TensorRT Optimization</figcaption>
   </figure>
   <figure class="framed-item">
     <img src="images/panda.JPG" alt="panda" class="framed">
