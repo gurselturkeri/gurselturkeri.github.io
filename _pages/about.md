@@ -22,9 +22,16 @@ redirect_from:
 
 
 <div class="framed-container">
-  <img src="images/av.gif" alt="av" class="framed">
-  <img src="images/panda.JPG" alt="panda" class="framed">
+  <figure>
+    <img src="images/av.gif" alt="av" class="framed">
+    <figcaption style="font-style: italic;">Description for av.gif</figcaption>
+  </figure>
+  <figure>
+    <img src="images/panda.JPG" alt="panda" class="framed">
+    <figcaption style="font-style: italic;">Description for panda.JPG</figcaption>
+  </figure>
 </div>
+
 
 
 <div style="text-align: center;">
