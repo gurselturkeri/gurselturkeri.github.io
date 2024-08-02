@@ -18,17 +18,14 @@ redirect_from:
 <p><i>I am a highly motivated Mechanical Engineering graduate from Gaziantep University, where I proudly ranked second in my class. With hands-on experience gained from a range of projects and internships, I am eager to apply my technical skills and problem-solving abilities in a stimulating and innovative environment.</i></p>
 
 
-
-
-
 <div class="framed-container">
-  <figure>
+  <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
-    <figcaption style="font-style: italic;">Description for av.gif</figcaption>
+    <figcaption>Description for av.gif</figcaption>
   </figure>
-  <figure>
+  <figure class="framed-item">
     <img src="images/panda.JPG" alt="panda" class="framed">
-    <figcaption style="font-style: italic;">Description for panda.JPG</figcaption>
+    <figcaption>Description for panda.JPG</figcaption>
   </figure>
 </div>
 
