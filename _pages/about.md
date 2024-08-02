@@ -32,11 +32,11 @@ redirect_from:
 <div class="framed-container">
   <figure class="framed-item">
     <img src="images/detection.jpg" alt="av" class="framed">
-    <figcaption>Traffic Sign Detection using YOLOv4 Darknet and TensorRT Optimization</figcaption>
+    <figcaption>Traffic Sign Detection using YOLOv4 Darknet and TensorRT Optimization - Gaziantep, Türkiye</figcaption>
   </figure>
   <figure class="framed-item">
-    <img src="images/panda.JPG" alt="panda" class="framed">
-    <figcaption>METU ROMER ChessMate Project - Ankara,Türkiye (2023)</figcaption>
+    <img src="images/autoware_test.gif" alt="panda" class="framed">
+    <figcaption>Autoware Testing after the Mapping Process </figcaption>
   </figure>
 </div>
 
