@@ -10,7 +10,9 @@ redirect_from:
 
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
-
+<div class="profile-container">
+  <!-- Your profile content here -->
+</div>
 
 
 I am a highly motivated Mechanical Engineering graduate from Gaziantep University, ranked second in my class, equipped with practical experience
