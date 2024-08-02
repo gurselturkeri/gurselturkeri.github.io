@@ -21,11 +21,11 @@ redirect_from:
 <div class="framed-container">
   <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
-    <figcaption>Description for av.gif</figcaption>
+    <figcaption>Robotaxi Competations - Kocaeli,Türkiye (2022)</figcaption>
   </figure>
   <figure class="framed-item">
     <img src="images/panda.JPG" alt="panda" class="framed">
-    <figcaption>Description for panda.JPG</figcaption>
+    <figcaption>METU ROMER ChessMate Project - Ankara,Türkiye (2023)</figcaption>
   </figure>
 </div>
 
