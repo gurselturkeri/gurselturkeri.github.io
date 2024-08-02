@@ -36,9 +36,9 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "github.com/gurselturkeri"
+  github           : "gurselturkeri"
   kaggle           : # Username  
-  stackoverflow    : "https://stackoverflow.com/users/18021550/gurselturkeri" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : "18021550/gurselturkeri" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   #bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -50,7 +50,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "gurselturkeri"# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -63,7 +63,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "@gurselturkeri" # Username
   zhihu            : # URL
 
 
