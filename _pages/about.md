@@ -11,20 +11,8 @@ redirect_from:
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
 
-<div class="terminal-container">
-  <div class="terminal">
-    <div class="terminal-header">
-      <div class="buttons">
-        <span class="close"></span>
-        <span class="minimize"></span>
-        <span class="maximize"></span>
-      </div>
-      <span class="title">Terminal</span>
-    </div>
-    <div class="terminal-body">
-      <pre id="terminal-text"></pre>
-    </div>
-  </div>
+<div style="text-align: center;">
+  <pre id="terminal-text" style="display: inline-block; font-family: 'Courier New', Courier, monospace; font-size: 1.5em;"></pre>
 </div>
 
 
@@ -64,61 +52,6 @@ redirect_from:
 </div>
 
 
-<style>
-.terminal-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.terminal {
-  background-color: black;
-  color: green;
-  border-radius: 5px;
-  width: 600px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.terminal-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-  background-color: #333;
-  color: white;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.buttons {
-  display: flex;
-  gap: 5px;
-}
-
-.buttons span {
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: red;
-}
-
-.buttons span.minimize {
-  background-color: yellow;
-}
-
-.buttons span.maximize {
-  background-color: green;
-}
-
-.terminal-body {
-  padding: 10px;
-}
-
-pre {
-  font-family: 'Courier New', Courier, monospace;
-  margin: 0;
-}
-</style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -154,5 +87,3 @@ document.addEventListener("DOMContentLoaded", function() {
   type();
 });
 </script>
-
-
