@@ -21,10 +21,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
-  }
-  
+}
+
 .interest-item {
-    flex: 0 1 calc(25% - 10px);
+    flex: 0 1 calc(20% - 10px);  /* Smaller box size */
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -32,11 +32,15 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
+    font-weight: bold;  /* Bold text */
+    font-family: 'Courier New', Courier, monospace;  /* Linux terminal-like font */
+    font-size: 1.2em;  /* Adjust font size as needed */
 }
-  
+
 .interest-item:hover {
     background-color: #e0f7fa;
 }
+
   
 
 
