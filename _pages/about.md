@@ -20,16 +20,6 @@ from various projects and internships. I am seeking an opportunity to apply my t
 innovative environment.
 
 
-<div class="interest-container">
-  <div class="interest-item">Autonomous Vehicles</div>
-  <div class="interest-item">ROS</div>
-  <div class="interest-item">Gazebo</div>
-  <div class="interest-item">Computer Vision</div>
-  <div class="interest-item">System Dynamics & Control</div>
-  <div class="interest-item">Solidworks</div>
-  <div class="interest-item">ANSYS</div>
-  <div class="interest-item">Symbol 8</div>
-</div>
 
 
 <div class="framed-container">
