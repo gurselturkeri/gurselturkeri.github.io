@@ -10,10 +10,6 @@ redirect_from:
 
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
-<div class="terminal">
-        <span id="terminalText">zernn@root:~$ </span><span class="cursor"></span>
-    </div>
-
 
 
 <p><i>I am a highly motivated Mechanical Engineering graduate from Gaziantep University, where I proudly ranked second in my class. With hands-on experience gained from a range of projects and internships, I am eager to apply my technical skills and problem-solving abilities in a stimulating and innovative environment.</i></p>
@@ -56,46 +52,3 @@ redirect_from:
 </div>
 
 
-.terminal {
-  font-family: monospace;
-  color: #39ff14;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  margin-top: 20px;
-  text-align: left; /* Align text to the left */
-  font-weight: bold;
-  }
-
-.cursor {
-  display: inline-block;
-  width: 10px;
-  height: 20px;
-  background-color: #39ff14;
-  margin-left: 5px;
-  vertical-align: bottom;
-  animation: blink 0.8s infinite;
-        }
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-        }
-
-
-
-<script>
-        const terminalTextElement = document.getElementById('terminalText');
-        const terminalContent = "Welcome to Zernn's Smart Greenhouse Systems!";
-        let index = 0;
-
-        function type() {
-            if (index < terminalContent.length) {
-                terminalTextElement.textContent += terminalContent.charAt(index);
-                index++;
-                setTimeout(type, 100);
-            }
-        }
-
-        // Start typing effect after the page loads
-        window.onload = type;
-    </script>
