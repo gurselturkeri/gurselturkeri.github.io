@@ -8,75 +8,26 @@ redirect_from:
 ---
 
 
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terminal Text Animation</title>
-    <style>
-        .terminal-container {
-            font-family: monospace; /* Gives a terminal-like appearance */
-            white-space: nowrap; /* Prevents text from wrapping */
-            overflow: hidden; /* Hides the overflowing text */
-            border-right: 2px solid #00ff00; /* Cursor effect */
-            width: 24ch; /* Adjust width as needed */
-            animation: blink-caret 0.75s step-end infinite;
-        }
-
-        @keyframes blink-caret {
-            from, to {
-                border-color: transparent;
-            }
-            50% {
-                border-color: #00ff00;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="terminal-container">
-        <div class="terminal-text" id="terminalText"></div>
-    </div>
-
-    <script>
-        const texts = ["ROS", "Gazebo"];
-        let index = 0;
-        let textIndex = 0;
-        let isDeleting = false;
-        const speed = 150; // Speed of typing/deleting
-
-        function type() {
-            const terminalText = document.getElementById('terminalText');
-            const currentText = texts[index];
-
-            if (isDeleting) {
-                terminalText.textContent = currentText.slice(0, textIndex--);
-            } else {
-                terminalText.textContent = currentText.slice(0, textIndex++);
-            }
-
-            if (!isDeleting && textIndex === currentText.length) {
-                setTimeout(() => { isDeleting = true; }, 2000);
-            } else if (isDeleting && textIndex === 0) {
-                isDeleting = false;
-                index = (index + 1) % texts.length;
-                setTimeout(type, 500);
-            } else {
-                setTimeout(type, speed);
-            }
-        }
-
-        type();
-    </script>
-</body>
-
-
-
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
-<div class="profile-container">
-  <!-- Your profile content here -->
+
+<div class="terminal-container">
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="buttons">
+        <span class="close"></span>
+        <span class="minimize"></span>
+        <span class="maximize"></span>
+      </div>
+      <span class="title">Terminal</span>
+    </div>
+    <div class="terminal-body">
+      <pre id="terminal-text"></pre>
+    </div>
+  </div>
 </div>
+
+
 
 
 <p><i>I am a highly motivated Mechanical Engineering graduate from Gaziantep University, where I proudly ranked second in my class. With hands-on experience gained from a range of projects and internships, I am eager to apply my technical skills and problem-solving abilities in a stimulating and innovative environment.</i></p>
@@ -111,5 +62,97 @@ redirect_from:
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zP3rmQ06xFE?si=Wtg2WROBjUeUV6k-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+
+<style>
+.terminal-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.terminal {
+  background-color: black;
+  color: green;
+  border-radius: 5px;
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.terminal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #333;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.buttons span.minimize {
+  background-color: yellow;
+}
+
+.buttons span.maximize {
+  background-color: green;
+}
+
+.terminal-body {
+  padding: 10px;
+}
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const terminalText = document.getElementById("terminal-text");
+  const commands = ["ROS", "Gazebo"];
+  let commandIndex = 0;
+  let charIndex = 0;
+  let typing = true;
+
+  function type() {
+    if (typing) {
+      if (charIndex < commands[commandIndex].length) {
+        terminalText.textContent += commands[commandIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 150);
+      } else {
+        typing = false;
+        setTimeout(type, 1500);
+      }
+    } else {
+      if (charIndex > 0) {
+        terminalText.textContent = terminalText.textContent.slice(0, -1);
+        charIndex--;
+        setTimeout(type, 100);
+      } else {
+        typing = true;
+        commandIndex = (commandIndex + 1) % commands.length;
+        setTimeout(type, 500);
+      }
+    }
+  }
+
+  type();
+});
+</script>
 
 
