@@ -5,17 +5,26 @@
     justify-content: space-between;
     margin-top: 20px;
 }
-  
-.framed {
+
+.framed-item {
     width: 45%;  /* Adjust the width to fit two images side by side with some margin */
+    text-align: center; /* Center-aligns the caption under the image */
+}
+
+.framed {
+    width: 100%;  /* Ensures the image takes up the full width of the container */
     height: 200px; /* Set a fixed height for consistency */
     border: 5px solid #ccc;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
 }
-  
-  
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px; /* Adds space between image and caption */
+}
+
 
 
   
