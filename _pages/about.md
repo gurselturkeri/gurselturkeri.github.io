@@ -20,9 +20,8 @@ innovative environment.
 
 <div class="framed-container">
   <img src="images/av.gif" alt="av" class="framed">
-  <img src="images/panda.JPG" alt="av" class="framed">
+  <img src="images/panda.JPG" alt="panda" class="framed">
 </div>
-
 
 <div class="interest-container">
   <div class="interest-item">Autonomous Vehicles</div>
