@@ -10,6 +10,8 @@ redirect_from:
 
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
+<img src="images/av.gif" alt="Your ok of the GIF" class="framed">
+
 
 I am a highly motivated Mechanical Engineering graduate from Gaziantep University, ranked second in my class, equipped with practical experience
 from various projects and internships. I am seeking an opportunity to apply my technical skills and problem-solving abilities in a challenging and
@@ -26,4 +28,3 @@ innovative environment.
   <div class="interest-item">Symbol 8</div>
 </div>
 
-<img src="images/av.gif" alt="Your ok of the GIF" class="framed">
