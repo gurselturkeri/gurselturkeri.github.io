@@ -10,21 +10,25 @@ redirect_from:
 
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
-<img src="images/av.gif" alt="Your ok of the GIF" class="framed">
+
 
 
 I am a highly motivated Mechanical Engineering graduate from Gaziantep University, ranked second in my class, equipped with practical experience
 from various projects and internships. I am seeking an opportunity to apply my technical skills and problem-solving abilities in a challenging and
 innovative environment.
 
+<img src="images/av.gif" alt="av" class="framed">
+<img src="images/robot.gif" alt="robot" class="framed">
+
+
 <div class="interest-container">
+  <div class="interest-item">Autonomous Vehicles</div>
   <div class="interest-item">ROS</div>
   <div class="interest-item">Gazebo</div>
-  <div class="interest-item">Symbol 3</div>
-  <div class="interest-item">Symbol 4</div>
-  <div class="interest-item">Symbol 5</div>
-  <div class="interest-item">Symbol 6</div>
-  <div class="interest-item">Symbol 7</div>
+  <div class="interest-item">Computer Vision</div>
+  <div class="interest-item">System Dynamics & Control</div>
+  <div class="interest-item">Solidworks</div>
+  <div class="interest-item">ANSYS</div>
   <div class="interest-item">Symbol 8</div>
 </div>
 
