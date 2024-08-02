@@ -12,4 +12,4 @@ from various projects and internships. I am seeking an opportunity to apply my t
 innovative environment.
 
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
-<img src="images/av.gif" alt="Your description of the GIF" class="framed">
+<img src="images/av.gif" alt="Your ok of the GIF" class="framed">
