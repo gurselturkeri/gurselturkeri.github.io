@@ -18,11 +18,6 @@ from various projects and internships. I am seeking an opportunity to apply my t
 innovative environment.
 
 
-<div class="framed-container">
-  <img src="images/av.gif" alt="av" class="framed">
-  <img src="images/panda.JPG" alt="panda" class="framed">
-</div>
-
 <div class="interest-container">
   <div class="interest-item">Autonomous Vehicles</div>
   <div class="interest-item">ROS</div>
@@ -33,4 +28,11 @@ innovative environment.
   <div class="interest-item">ANSYS</div>
   <div class="interest-item">Symbol 8</div>
 </div>
+
+
+<div class="framed-container">
+  <img src="images/av.gif" alt="av" class="framed">
+  <img src="images/panda.JPG" alt="panda" class="framed">
+</div>
+
 
