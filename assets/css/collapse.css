@@ -15,3 +15,9 @@
     display: none;
     padding : 5px;
 }
+
+img.framed {
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

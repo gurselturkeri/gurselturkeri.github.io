@@ -11,4 +11,5 @@ I am a highly motivated Mechanical Engineering graduate from Gaziantep Universit
 from various projects and internships. I am seeking an opportunity to apply my technical skills and problem-solving abilities in a challenging and
 innovative environment.
 
-<img src="images/av.gif">
+<link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
+<img src="images/av.gif" alt="Your description of the GIF" class="framed">
