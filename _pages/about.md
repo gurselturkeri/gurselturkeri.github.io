@@ -15,9 +15,8 @@ redirect_from:
 </div>
 
 
-I am a highly motivated Mechanical Engineering graduate from Gaziantep University, ranked second in my class, equipped with practical experience
-from various projects and internships. I am seeking an opportunity to apply my technical skills and problem-solving abilities in a challenging and
-innovative environment.
+<p><i>I am a highly motivated Mechanical Engineering graduate from Gaziantep University, where I proudly ranked second in my class. With hands-on experience gained from a range of projects and internships, I am eager to apply my technical skills and problem-solving abilities in a stimulating and innovative environment.</i></p>
+
 
 
 
