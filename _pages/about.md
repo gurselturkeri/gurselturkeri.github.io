@@ -18,7 +18,7 @@ from various projects and internships. I am seeking an opportunity to apply my t
 innovative environment.
 
 <img src="images/av.gif" alt="av" class="framed">
-<img src="images/robot.gif" alt="robot" class="framed">
+
 
 
 <div class="interest-container">

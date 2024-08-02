@@ -46,3 +46,19 @@ img.framed {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
+.framed-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.framed {
+    width: 300px;  /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
