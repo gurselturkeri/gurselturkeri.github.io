@@ -22,25 +22,25 @@ img.framed {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-.interest-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-margin-top: 20px;
-}
-
-.interest-item {
-width: 22%;
-margin-bottom: 10px;
-padding: 10px;
-text-align: center;
-border: 1px solid #ccc;
-border-radius: 8px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-background-color: #f9f9f9;
-}
-
-.interest-item:hover {
-background-color: #e0f7fa;
-}
+  .interest-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .interest-item {
+    flex: 0 1 calc(25% - 10px);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .interest-item:hover {
+    background-color: #e0f7fa;
+  }
   
