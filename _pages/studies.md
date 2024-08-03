@@ -29,6 +29,6 @@ author_profile: true
 
 <div class="framed-container">
   <figure class="framed-item">
-    <img src="images/panda_pp_low.jpg" alt="panda" class="framed">
+    <img src="/home/gursel/gurselturkeri.github.io/images/panda_pp_low.jpg" alt="panda" class="framed">
   </figure>
 </div>
