@@ -26,8 +26,9 @@ author_profile: true
     <a href="https://github.com/METU-KALFA/chess_mate">View on GitHub</a>
     <a href="youtu.be/GnKijB48dgs">- View on Youtube</a>
 </div>
+
 <div class="framed-container">
   <figure class="framed-item">
-    <img src="images/panda_pp_low.jpg" alt="av" class="framed">
+    <img src="images/panda_pp_low.jpg" alt="panda" class="framed">
   </figure>
 </div>
