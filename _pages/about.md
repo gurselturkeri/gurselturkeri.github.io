@@ -17,9 +17,6 @@ redirect_from:
 
 
 
-
-
-
 <div class="framed-container">
   <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
