@@ -24,7 +24,7 @@ author_profile: true
     <h2>ChessMate</h2>
     <p><em>A chess-playing robot arm adept at analyzing and engaging with diverse board positions using object detection and traditional computer vision methods. </em><p>
     <a href="https://github.com/METU-KALFA/chess_mate">View on GitHub</a>
-    <a href="youtu.be/GnKijB48dgs">- View on Youtube</a>
+    <a href="https://www.youtube.com/watch?v=GnKijB48dgs">- View on Youtube</a>
 
   <div class="framed-container">
   <figure class="framed-item">
