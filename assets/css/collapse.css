@@ -1,4 +1,49 @@
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sidebar, .main-content, .sidebar-right {
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f8f9fa;
+}
+
+.main-content {
+    width: 60%;
+}
+
+.sidebar-right {
+    width: 20%;
+    background-color: #f8f9fa;
+}
+
+.sidebar-right h2 {
+    margin-top: 0;
+}
+
+.sidebar-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-right li {
+    margin: 5px 0;
+}
+
+
+
+
 
 .framed-container {
     display: flex;

@@ -15,6 +15,26 @@ redirect_from:
 <p><i>I am a highly motivated Mechanical Engineering graduate from Gaziantep University, where I proudly ranked second in my class. With hands-on experience gained from a range of projects and internships, I am eager to apply my technical skills and problem-solving abilities in a stimulating and innovative environment.</i></p>
 
 
+<div class="container">
+    <div class="sidebar">
+        <!-- Mevcut içerik -->
+    </div>
+    <div class="main-content">
+        <!-- Mevcut içerik -->
+    </div>
+    <div class="sidebar-right">
+        <h2>Interests</h2>
+        <ul>
+            <li>Robotics</li>
+            <li>Autonomous Systems</li>
+            <li>Machine Learning</li>
+            <li>3D Printing</li>
+            <li>Programming</li>
+        </ul>
+    </div>
+</div>
+
+
 <div class="framed-container">
   <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
