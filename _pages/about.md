@@ -16,26 +16,7 @@ redirect_from:
 
 
 
-<div class="container">
-    <div class="sidebar">
-        <!-- Mevcut içerik -->
-    </div>
-    <div class="main-content">
-        <!-- Mevcut içerik -->
-    </div>
-    <div class="sidebar-right">
-        <div class="header">Interests</div>
-        <div class="content">
-            <ul>
-                <li>Robotics</li>
-                <li>Autonomous Systems</li>
-                <li>Machine Learning</li>
-                <li>3D Printing</li>
-                <li>Programming</li>
-            </ul>
-        </div>
-    </div>
-</div>
+
 
 
 
