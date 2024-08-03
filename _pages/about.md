@@ -18,11 +18,11 @@ redirect_from:
 <div class="framed-container">
   <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
-    <figcaption>Robotaxi Competations - Kocaeli,Türkiye (2022)</figcaption>
+    <figcaption>Robotaxi Full-Scale Autonomous Vehicle Competition - Kocaeli,Türkiye (2022)</figcaption>
   </figure>
   <figure class="framed-item">
     <img src="images/panda.JPG" alt="panda" class="framed">
-    <figcaption>METU ROMER ChessMate Project - Ankara,Türkiye (2023)</figcaption>
+    <figcaption>  METU ROMER ChessMate Project - Ankara,Türkiye (2023)</figcaption>
   </figure>
 </div>
 
@@ -33,7 +33,7 @@ redirect_from:
   </figure>
   <figure class="framed-item">
     <img src="images/autoware_test.gif" alt="panda" class="framed">
-    <figcaption>Autoware Testing after the Mapping Process </figcaption>
+    <figcaption>  Autoware Testing after the Mapping Process </figcaption>
   </figure>
 </div>
 
