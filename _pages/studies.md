@@ -25,10 +25,10 @@ author_profile: true
     <p><em>A chess-playing robot arm adept at analyzing and engaging with diverse board positions using object detection and traditional computer vision methods. </em><p>
     <a href="https://github.com/METU-KALFA/chess_mate">View on GitHub</a>
     <a href="youtu.be/GnKijB48dgs">- View on Youtube</a>
-</div>
 
-<div class="framed-container">
+  <div class="framed-container">
   <figure class="framed-item">
     <img src="https://raw.githubusercontent.com/gurselturkeri/gurselturkeri.github.io/master/images/panda_pp_low.jpg" alt="panda" class="framed">
   </figure>
 </div>
+
