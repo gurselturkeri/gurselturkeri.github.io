@@ -28,7 +28,7 @@ author_profile: true
 
   <div class="framed-container">
   <figure class="framed-item">
-    <img src="https://raw.githubusercontent.com/gurselturkeri/gurselturkeri.github.io/master/images/panda_pp_low.jpg" alt="panda" class="framed">
+    <img src="https://raw.githubusercontent.com/gurselturkeri/gurselturkeri.github.io/master/images/panda_pp_low.jpg" alt="panda" class="framed" width="420">
   </figure>
 </div>
 
