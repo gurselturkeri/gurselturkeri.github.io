@@ -13,8 +13,8 @@
 }
 
 .framed {
-    width: 50%;  /* Ensures the image takes up the full width of the container */
-    height: 50px; /* Set a fixed height for consistency */
+    width: 100%;  /* Ensures the image takes up the full width of the container */
+    height: 200px; /* Set a fixed height for consistency */
     border: 5px solid #ccc;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
