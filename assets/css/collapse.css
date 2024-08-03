@@ -29,62 +29,27 @@ figcaption {
 
 
   
+
+
 .container {
-    width: 100%;
-    border: 1px solid #d3d3d3;
-    display: flex;
+    width:100%;
+    border:1px solid #d3d3d3;
 }
-
 .container div {
-    width: 100%;
+    width:100%;
 }
-
 .container .header {
-    background-color: #d3d3d3;
+    background-color:#d3d3d3;
     padding: 2px;
     cursor: pointer;
     font-weight: bold;
 }
-
 .container .content {
     display: none;
-    padding: 5px;
+    padding : 5px;
 }
 
-.sidebar {
-    width: 20%;
-    background-color: #f8f9fa;
-}
 
-.main-content {
-    width: 60%;
-}
-
-.sidebar-right {
-    width: 20%;
-    background-color: #f8f9fa;
-}
-
-.sidebar-right .header {
-    background-color: #d3d3d3;
-    padding: 2px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.sidebar-right .content {
-    display: none;
-    padding: 5px;
-}
-
-.sidebar-right ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar-right li {
-    margin: 5px 0;
-}
 
 
 
