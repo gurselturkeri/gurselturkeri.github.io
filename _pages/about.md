@@ -17,15 +17,6 @@ redirect_from:
 <p class="intro-text reveal d2">I am a Mechanical Engineering graduate from Gaziantep University, where I ranked second in my class. I currently work as an Autonomous Driving Field Application Engineer at Kuartis, where I develop, simulate, and field-test autonomous vehicles, and I am pursuing an M.S. in Mechanical Engineering (Machine Theory and Dynamics) at Gaziantep University. My work centers on autonomous systems, robotics, sensor calibration, and control.</p>
 
 
-<div class="terminal-window reveal d2">
-  <div class="terminal-bar">
-    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-    <span class="title">gursel@robotics ~ </span>
-  </div>
-  <pre id="terminal-text"></pre>
-</div>
-
-
 <div class="framed-container reveal d3">
   <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
