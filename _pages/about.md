@@ -12,7 +12,9 @@ redirect_from:
 
 
 
-<p><i>I am a highly motivated Mechanical Engineering graduate from Gaziantep University, where I proudly ranked second in my class. With hands-on experience gained from a range of projects and internships, I am eager to apply my technical skills and problem-solving abilities in a stimulating and innovative environment.</i></p>
+<p><strong>Autonomous Driving Field Application Engineer interested in autonomous systems and robotics.</strong></p>
+
+<p><i>I am a Mechanical Engineering graduate from Gaziantep University, where I ranked second in my class. I currently work as an Autonomous Driving Field Application Engineer at Kuartis, where I develop, simulate, and field-test autonomous vehicles, and I am pursuing an M.S. in Mechanical Engineering (Machine Theory and Dynamics) at Gaziantep University. My work centers on autonomous systems, robotics, sensor calibration, and control.</i></p>
 
 
 

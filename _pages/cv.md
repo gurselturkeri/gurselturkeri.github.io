@@ -15,19 +15,20 @@ Mersin, TÜRKİYE • [gurselturkeri@hotmail.com](mailto:gurselturkeri@hotmail.c
 
 Education
 ======
-* B.S. in Mechanical Engineering (%100 English), Gaziantep University, Graduation 06/2024
+* Master of Science in Mechanical Engineering, Gaziantep University, 02/2026 – Present
+  * Specialization: Machine Theory and Dynamics
+  * Key Topics: Robotics, Mechatronic Systems, Mechanism Kinematics
+* Bachelor of Mechanical Engineering (%100 English), Gaziantep University, 09/2019 – 06/2024
   * GPA: 2.92/4.00
-  * Ranked 2nd in class
 
 Work experience
 ======
 * 09/2024 – Present: Autonomous Driving Field Application Engineer
   * Kuartis, Ankara, TÜRKİYE
-  * Conducting tests for autonomous vehicles on land and sea, specializing in general autonomous driving, control, ADAS, mapping, and localization
+  * CVMLR (Computer Vision, Machine Learning, Robotics)
+  * Conducting development, simulation, and field tests for autonomous vehicles on land and sea
   * Proficient in sensor calibration and data collection for calibration purposes, including cameras, LiDAR, GNSS, and other critical sensors
   * Expertise in integrating and testing sensor data for real-time performance, fault detection, and debugging using ROS2 and C++
-  * Integrating tested code with GitLab and managing branches effectively
-  * Strong knowledge of defense industry vehicle systems, including sensor integration, CAN bus, and vehicle network protocols
 
 * 02/2024 – 05/2024: Long Term Intern
   * Baykar Technologies, Istanbul, TÜRKİYE
@@ -43,12 +44,11 @@ Work experience
 
 * 10/2021 – 05/2023: Team Member
   * Automobile Robot and Energy Community (ORET), Gaziantep, TÜRKİYE
-  * Created a YOLO model for traffic sign detection using a custom dataset for autonomous vehicles
   * Developed and researched autonomous vehicle systems for perception, localization and mapping, planning and control, and sensor fusion using ROS and Autoware open-source autonomous driving packages
+  * Developed a YOLO-based perception model for traffic sign detection using custom datasets
 
 Skills & Interests
 ======
-* Technical: Python, C++, ROS (Robot Operating System), Docker, Git, Gazebo, System Dynamics & Control, Machine Learning, SOLIDWORKS, AutoCAD, Adobe Photoshop
+* Technical: Python, C++, ROS (Robot Operating System), Docker, Git, Calibration, Simulation, System Dynamics & Control, Machine Learning, Linux, SOLIDWORKS, AutoCAD
 * Language: Native in Turkish, limited working proficiency in English
-* Laboratory: Mechanical Engineering Laboratory (ME316) — measurement techniques for heating value, temperature, force, speed, power, pressure and flow, and statistical, graphical and mathematical data analysis
 * Interests: Camping, Travel, Computer Games, Football (certified player, 2011-2013)
