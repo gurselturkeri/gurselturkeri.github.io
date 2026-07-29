@@ -17,7 +17,7 @@
   s.height = "100%";
   s.zIndex = "-1";
   s.pointerEvents = "none";
-  s.opacity = "0.5";
+  s.opacity = "0.8";
   document.body.appendChild(canvas);
 
   var ctx = canvas.getContext("2d");
@@ -61,9 +61,10 @@
   }
 
   function reset() {
-    // Confine the whole scene to an upper-middle band of the viewport.
-    RL = W * 0.10; RR = W * 0.90;
-    RT = H * 0.06; RB = H * 0.48;
+    // Keep the scene in the upper part of the viewport, spanning nearly
+    // the full width so it also shows in the margins beside the content.
+    RL = W * 0.03; RR = W * 0.97;
+    RT = H * 0.05; RB = H * 0.50;
     var bandH = RB - RT;
 
     obstacles = [];
@@ -132,7 +133,7 @@
   }
 
   function drawTree() {
-    ctx.strokeStyle = "rgba(" + CYAN + ",0.16)";
+    ctx.strokeStyle = "rgba(" + CYAN + ",0.28)";
     ctx.lineWidth = 1;
     ctx.beginPath();
     for (var i = 1; i < nodes.length; i++) {
@@ -141,7 +142,7 @@
     }
     ctx.stroke();
     // frontier dots (last few nodes)
-    ctx.fillStyle = "rgba(" + CYAN + ",0.5)";
+    ctx.fillStyle = "rgba(" + CYAN + ",0.7)";
     for (var j = Math.max(1, nodes.length - 6); j < nodes.length; j++) {
       ctx.beginPath(); ctx.arc(nodes[j].x, nodes[j].y, 1.6, 0, 6.2832); ctx.fill();
     }
