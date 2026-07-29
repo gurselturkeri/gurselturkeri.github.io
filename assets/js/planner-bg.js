@@ -28,6 +28,7 @@
   var STEEL = "120,140,160";
 
   var nodes, obstacles, goal, start, solvedPath, state, robotT, holdUntil;
+  var RL, RR, RT, RB; // planning region bounds (upper-middle band)
   var MAX_NODES = 620, STEP = 26, GOAL_R = 30, EXT_PER_FRAME = 3;
 
   function rand(a, b) { return a + Math.random() * (b - a); }
@@ -60,15 +61,24 @@
   }
 
   function reset() {
+    // Confine the whole scene to an upper-middle band of the viewport.
+    RL = W * 0.10; RR = W * 0.90;
+    RT = H * 0.06; RB = H * 0.48;
+    var bandH = RB - RT;
+
     obstacles = [];
     var count = W < 640 ? 3 : 5;
     for (var i = 0; i < count; i++) {
-      var w = rand(70, 190), h = rand(60, 170);
-      obstacles.push({ x: rand(W * 0.12, W * 0.88 - w), y: rand(H * 0.12, H * 0.88 - h), w: w, h: h });
+      var w = rand(70, 180), h = rand(46, Math.min(140, bandH * 0.45));
+      obstacles.push({
+        x: rand(RL + 30, RR - w - 30),
+        y: rand(RT + bandH * 0.12, RB - h - 4),
+        w: w, h: h
+      });
     }
-    start = { x: W * rand(0.05, 0.14), y: H * rand(0.78, 0.92), parent: -1 };
-    goal = { x: W * rand(0.84, 0.94), y: H * rand(0.08, 0.24) };
-    if (pointInObstacles(start)) start.y = H * 0.9;
+    start = { x: rand(RL, RL + W * 0.05), y: rand(RB - bandH * 0.18, RB), parent: -1 };
+    goal = { x: rand(RR - W * 0.05, RR), y: rand(RT, RT + bandH * 0.22) };
+    if (pointInObstacles(start)) start.y = RB;
     nodes = [start];
     solvedPath = null;
     robotT = 0;
@@ -85,12 +95,12 @@
   }
 
   function extend() {
-    var sample = Math.random() < 0.08 ? goal : { x: rand(0, W), y: rand(0, H) };
+    var sample = Math.random() < 0.08 ? goal : { x: rand(RL, RR), y: rand(RT, RB) };
     var ni = nearest(sample);
     var n = nodes[ni];
     var ang = Math.atan2(sample.y - n.y, sample.x - n.x);
     var np = { x: n.x + Math.cos(ang) * STEP, y: n.y + Math.sin(ang) * STEP, parent: ni };
-    if (np.x < 0 || np.x > W || np.y < 0 || np.y > H) return;
+    if (np.x < RL - STEP || np.x > RR + STEP || np.y < RT - STEP || np.y > RB + STEP) return;
     if (pointInObstacles(np) || segHitsObstacles(n, np)) return;
     nodes.push(np);
     if (dist2(np, goal) < GOAL_R * GOAL_R) buildPath(nodes.length - 1);
