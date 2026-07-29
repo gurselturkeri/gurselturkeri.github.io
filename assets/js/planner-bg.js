@@ -17,7 +17,7 @@
   s.height = "100%";
   s.zIndex = "-1";
   s.pointerEvents = "none";
-  s.opacity = "0.8";
+  s.opacity = "1";
   document.body.appendChild(canvas);
 
   var ctx = canvas.getContext("2d");
@@ -61,10 +61,9 @@
   }
 
   function reset() {
-    // Keep the scene in the upper part of the viewport, spanning nearly
-    // the full width so it also shows in the margins beside the content.
+    // Upper-middle band, below the masthead, spanning nearly full width.
     RL = W * 0.03; RR = W * 0.97;
-    RT = H * 0.05; RB = H * 0.50;
+    RT = Math.max(H * 0.11, 84); RB = H * 0.58;
     var bandH = RB - RT;
 
     obstacles = [];
@@ -114,11 +113,20 @@
     state = "travel";
   }
 
+  function drawRegionGrid() {
+    ctx.strokeStyle = "rgba(" + CYAN + ",0.07)";
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    for (var x = RL; x <= RR; x += 46) { ctx.moveTo(x, RT); ctx.lineTo(x, RB); }
+    for (var y = RT; y <= RB; y += 46) { ctx.moveTo(RL, y); ctx.lineTo(RR, y); }
+    ctx.stroke();
+  }
+
   function drawObstacles() {
     for (var i = 0; i < obstacles.length; i++) {
       var o = obstacles[i];
-      ctx.fillStyle = "rgba(" + STEEL + ",0.05)";
-      ctx.strokeStyle = "rgba(" + STEEL + ",0.22)";
+      ctx.fillStyle = "rgba(" + STEEL + ",0.08)";
+      ctx.strokeStyle = "rgba(" + STEEL + ",0.38)";
       ctx.lineWidth = 1;
       ctx.fillRect(o.x, o.y, o.w, o.h);
       ctx.strokeRect(o.x, o.y, o.w, o.h);
@@ -133,7 +141,7 @@
   }
 
   function drawTree() {
-    ctx.strokeStyle = "rgba(" + CYAN + ",0.28)";
+    ctx.strokeStyle = "rgba(" + CYAN + ",0.45)";
     ctx.lineWidth = 1;
     ctx.beginPath();
     for (var i = 1; i < nodes.length; i++) {
@@ -191,6 +199,7 @@
 
   function frame() {
     ctx.clearRect(0, 0, W, H);
+    drawRegionGrid();
     drawObstacles();
 
     if (state === "growing") {
@@ -225,6 +234,7 @@
       if (nodes.length >= MAX_NODES) break;
     }
     ctx.clearRect(0, 0, W, H);
+    drawRegionGrid();
     drawObstacles();
     drawTree();
     drawPath(null);
