@@ -11,48 +11,46 @@ redirect_from:
 <link rel="stylesheet" type="text/css" href="assets/css/collapse.css">
 
 
+<p class="hero-tag reveal d1">autonomous systems · robotics · control</p>
+<h1 class="hero-lead reveal d1">Junior Mechanical Engineer building <span class="accent">autonomous systems &amp; robotics</span>.</h1>
 
-<p><strong>Autonomous Driving Field Application Engineer interested in autonomous systems and robotics.</strong></p>
-
-<p><i>I am a Mechanical Engineering graduate from Gaziantep University, where I ranked second in my class. I currently work as an Autonomous Driving Field Application Engineer at Kuartis, where I develop, simulate, and field-test autonomous vehicles, and I am pursuing an M.S. in Mechanical Engineering (Machine Theory and Dynamics) at Gaziantep University. My work centers on autonomous systems, robotics, sensor calibration, and control.</i></p>
-
-
+<p class="intro-text reveal d2">I am a Mechanical Engineering graduate from Gaziantep University, where I ranked second in my class. I currently work as an Autonomous Driving Field Application Engineer at Kuartis, where I develop, simulate, and field-test autonomous vehicles, and I am pursuing an M.S. in Mechanical Engineering (Machine Theory and Dynamics) at Gaziantep University. My work centers on autonomous systems, robotics, sensor calibration, and control.</p>
 
 
-<div class="framed-container">
+<div class="terminal-window reveal d2">
+  <div class="terminal-bar">
+    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+    <span class="title">gursel@robotics ~ </span>
+  </div>
+  <pre id="terminal-text"></pre>
+</div>
+
+
+<div class="framed-container reveal d3">
   <figure class="framed-item">
     <img src="images/av.gif" alt="av" class="framed">
-    <figcaption>Robotaxi Full-Scale Autonomous Vehicle Competition - Kocaeli,Türkiye (2022)</figcaption>
+    <figcaption>Robotaxi Full-Scale Autonomous Vehicle Competition - Kocaeli, Türkiye (2022)</figcaption>
   </figure>
   <figure class="framed-item">
     <img src="images/panda.JPG" alt="panda" class="framed">
-    <figcaption>      METU ROMER ChessMate Project - Ankara,Türkiye (2023)</figcaption>
+    <figcaption>METU ROMER ChessMate Project - Ankara, Türkiye (2023)</figcaption>
   </figure>
 </div>
 
-<div class="framed-container">
+<div class="framed-container reveal d4">
   <figure class="framed-item">
-    <img src="images/detection.jpg" alt="av" class="framed">
-    <figcaption>Traffic Sign Detection using YOLOv4 Darknet and TensorRT Optimization - Gaziantep, Türkiye</figcaption>
+    <img src="images/detection.jpg" alt="detection" class="framed">
+    <figcaption>Traffic Sign Detection — YOLOv4 Darknet + TensorRT Optimization - Gaziantep, Türkiye</figcaption>
   </figure>
   <figure class="framed-item">
-    <img src="images/autoware_test.gif" alt="panda" class="framed">
-    <figcaption>      Autoware Testing after the Mapping Process </figcaption>
+    <img src="images/autoware_test.gif" alt="autoware" class="framed">
+    <figcaption>Autoware Testing after the Mapping Process</figcaption>
   </figure>
 </div>
 
 
-
-
-
-<div style="text-align: center;">
+<div class="video-frame reveal d4">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zP3rmQ06xFE?si=Wtg2WROBjUeUV6k-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-
-
-<div style="text-align: center;">
-  <pre id="terminal-text" style="display: inline-block; font-family: 'Courier New', Courier, monospace; font-size: 1.5em; color: green;"></pre>
 </div>
 
 
