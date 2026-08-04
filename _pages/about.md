@@ -12,7 +12,7 @@ redirect_from:
 
 
 <p class="hero-tag reveal d1">autonomous systems · robotics · control</p>
-<h1 class="hero-lead reveal d1">Junior Mechanical Engineer building <span class="accent">autonomous systems &amp; robotics</span>.</h1>
+<h1 class="hero-lead reveal d1">Mechanical Engineer building <span class="accent">autonomous systems &amp; robotics</span>.</h1>
 
 <p class="intro-text reveal d2">I am a Mechanical Engineering graduate from Gaziantep University, where I ranked second in my class. I currently work as an Autonomous Driving Field Application Engineer at Kuartis, where I develop, simulate, and field-test autonomous vehicles, and I am pursuing an M.S. in Mechanical Engineering (Machine Theory and Dynamics) at Gaziantep University. My work centers on autonomous systems, robotics, sensor calibration, and control.</p>
 
