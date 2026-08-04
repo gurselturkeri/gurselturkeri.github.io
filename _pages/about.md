@@ -36,6 +36,8 @@ redirect_from:
         <li>MoveIt</li>
         <li>PX4 / MAVROS</li>
         <li>Gazebo</li>
+        <li>Control Systems</li>
+        <li>PID</li>
       </ul>
     </div>
     <div class="stack-group">
