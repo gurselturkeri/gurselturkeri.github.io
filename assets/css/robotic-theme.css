@@ -294,13 +294,25 @@ tr:nth-child(2n) { background: rgba(255,255,255,.02) !important; }
 .page__content h2.stack-heading::after { display: none; }
 
 .stack-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 22px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
+/* Each group is one horizontal row: label on the left, chips flowing right */
+.stack-group {
+  display: grid;
+  grid-template-columns: 168px 1fr;
+  align-items: start;
+  gap: 6px 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.stack-group:last-child { padding-bottom: 0; border-bottom: 0; }
+
 .stack-label {
-  margin: 0 0 10px !important;
+  margin: 0 !important;
+  padding-top: .45em;
   font-family: var(--font-mono) !important;
   font-size: .72em !important;
   font-weight: 500;
@@ -486,7 +498,8 @@ figcaption::before { content: "// "; color: var(--cyan); }
   .framed { height: 180px; }
   .hero-lead { font-size: 1.25em; }
   .terminal-window { margin-top: 24px; }
-  .stack-grid { grid-template-columns: 1fr; gap: 18px; }
+  .stack-group { grid-template-columns: 1fr; }
+  .stack-label { padding-top: 0; }
 }
 
 /* ---------- Reduced motion ------------------------------------------ */
