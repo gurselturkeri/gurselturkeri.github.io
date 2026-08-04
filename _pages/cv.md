@@ -24,27 +24,27 @@ Education
 Work experience
 ======
 * 09/2024 – Present: Autonomous Driving Field Application Engineer
-  * Kuartis, Ankara, TÜRKİYE
-  * CVMLR (Computer Vision, Machine Learning, Robotics)
+* Kuartis, Ankara, TÜRKİYE
+* CVMLR (Computer Vision, Machine Learning, Robotics)
   * Conducting development, simulation, and field tests for autonomous land and sea vehicles using ROS2 and C++ on Linux-based platforms
   * Performed intrinsic camera calibration and multi-sensor data collection (cameras, LiDAR, GNSS) for perception and localization pipelines
   * Developed a mission management UI in Qt (C++) for autonomous vehicle operation, monitoring, and telemetry visualization
   * Managed containerized deployment and version control workflows using Docker and Git for reproducible ROS2 builds across embedded targets
 
 * 02/2024 – 05/2024: Long Term Intern
-  * Baykar Technologies, Istanbul, TÜRKİYE
+* Baykar Technologies, Istanbul, TÜRKİYE
   * Built an autonomous fixed-wing flight simulation in Gazebo integrated with the PX4 autopilot via MAVROS and ROS2 to analyze guidance and control algorithms
   * Improved fixed-wing guidance algorithms to achieve more accurate flight-path tracking in autonomous PX4-based flight tests
   * Derived and implemented a mathematical model of the flare (landing) phase in MATLAB and validated it in simulation
 
 * 07/2023 – 08/2023: Summer Intern
-  * Middle East Technical University, ROMER, Ankara, TÜRKİYE
+* Middle East Technical University, ROMER, Ankara, TÜRKİYE
   * Contributed to the ChessMate project using the Franka Emika Panda 7-DOF manipulator, integrated in ROS1 and simulated in Gazebo
   * Implemented motion planning and inverse-kinematics solving with MoveIt for precise pick-and-place manipulation
   * Improved a YOLOv8-based vision model for chess-piece recognition to enhance object detection and manipulation accuracy
 
 * 10/2021 – 05/2023: Team Member
-  * Automobile Robot and Energy Community (ORET), Gaziantep, TÜRKİYE
+* Automobile Robot and Energy Community (ORET), Gaziantep, TÜRKİYE
   * Developed an autonomous driving stack on the Autoware Universe framework (ROS2, C++, Python), covering perception, localization, planning, and control
   * Implemented PCD-based localization (NDT scan matching) and behavior path planning within the Autoware pipeline
   * Trained and deployed a YOLOv8 traffic-sign detection model, optimized with TensorRT on NVIDIA Jetson Xavier for real-time inference
