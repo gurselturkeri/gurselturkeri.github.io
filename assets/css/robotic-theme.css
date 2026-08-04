@@ -276,6 +276,76 @@ tr:nth-child(2n) { background: rgba(255,255,255,.02) !important; }
   max-width: 62ch;
 }
 
+/* Tools & systems stack */
+.stack { margin: 34px 0 8px; }
+
+.page__content h2.stack-heading {
+  margin: 0 0 18px;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-family: var(--font-mono) !important;
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--green) !important;
+}
+.page__content h2.stack-heading::before { content: "// "; color: var(--green); opacity: .7; }
+.page__content h2.stack-heading::after { display: none; }
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 22px 26px;
+}
+
+.stack-label {
+  margin: 0 0 10px !important;
+  font-family: var(--font-mono) !important;
+  font-size: .72em !important;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--muted) !important;
+}
+.stack-label::before {
+  content: "";
+  display: inline-block;
+  width: 14px; height: 1px;
+  margin-right: 8px;
+  vertical-align: middle;
+  background: var(--cyan);
+  box-shadow: 0 0 8px rgba(34, 211, 238, .7);
+}
+
+.stack-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.stack-chips li {
+  margin: 0;
+  padding: .34em .72em;
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: .74em;
+  letter-spacing: .4px;
+  white-space: nowrap;
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+  transition: background .2s ease, border-color .2s ease, color .2s ease, box-shadow .2s ease;
+}
+.stack-chips li:hover {
+  background: rgba(34, 211, 238, .10);
+  border-color: var(--cyan);
+  color: var(--text-bright);
+  box-shadow: var(--glow-cyan);
+}
+
 /* Project cards */
 .framed-container {
   display: grid;
@@ -407,6 +477,7 @@ figcaption::before { content: "// "; color: var(--cyan); }
 .reveal.d2 { animation-delay: .18s; }
 .reveal.d3 { animation-delay: .32s; }
 .reveal.d4 { animation-delay: .46s; }
+.reveal.d5 { animation-delay: .58s; }
 
 /* ---------- Responsive ---------------------------------------------- */
 
@@ -415,6 +486,7 @@ figcaption::before { content: "// "; color: var(--cyan); }
   .framed { height: 180px; }
   .hero-lead { font-size: 1.25em; }
   .terminal-window { margin-top: 24px; }
+  .stack-grid { grid-template-columns: 1fr; gap: 18px; }
 }
 
 /* ---------- Reduced motion ------------------------------------------ */
